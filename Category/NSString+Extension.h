@@ -15,4 +15,8 @@
 /** 判断字符串是否为空，\@"" 返回yes */
 + (BOOL)isNotBlank:(NSString *)str;
 + (NSString *)sha1:(NSString *)input;
+
+//MD5
++ (NSString *)md5:(NSString *)input;
+
 @end
